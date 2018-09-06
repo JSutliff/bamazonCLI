@@ -1,0 +1,24 @@
+{
+  "name": "bamazonCLI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSutliff/bamazonCLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSutliff/bamazonCLI/issues"
+  },
+  "homepage": "https://github.com/JSutliff/bamazonCLI#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "mysql": "^2.16.0"
+  }
+}
