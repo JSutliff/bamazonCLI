@@ -26,17 +26,21 @@ function displayItems() {
 
     console.log(`
     ================= Available Items =================`);
+    console.log(`
+      Item ID       Product Name          Price`);
     return resp.forEach(function(elem) {
+      
+
       console.log(`
-      Item ID: ${elem.item_id}
-      Product Name: ${elem.product_name}
-      Price: ${elem.price}
+        ${elem.item_id}         ${elem.product_name}        ${elem.price}
       ----------------------------------------`);
     })
   })
 }
 
 displayItems();
+
+
 //prompt user for item id of product they would like to purchase
   //prompt user how many they would like to buy
 
@@ -49,4 +53,4 @@ displayItems();
 
 //func fulfillOrder
   //update sql database
-  //show the total purchase cost to user
+  //show the total purchase cost to userb 
